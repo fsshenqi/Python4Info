@@ -19,3 +19,4 @@ if not js or 'status' not in js or js['status'] != 'OK':
 
 place_id = js["results"][0]["place_id"]
 print "Place id", place_id
+
