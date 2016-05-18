@@ -1,0 +1,148 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>
+	公路水运工程试验检测管理信息系统
+</title><link rel="stylesheet" type="text/css" href="css/index.css" />
+    <script type="text/javascript" src="Javascript/jquery-1.8.0.min.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="Javascript/themes/default/easyui.css" />
+    <link rel="stylesheet" type="text/css" href="Javascript/themes/icon.css" />
+    <script type="text/javascript" src="Javascript/jquery.easyui.min.js"></script>
+    <script>
+        function back()
+        {
+            if ($("#tb1").find("tr").length <= 2) {
+                location.href = "/";
+            }
+            else {
+                location.href = location.href;
+            }
+        }
+    </script>
+</head>
+    <form method="post" action="SearchOrgan.aspx" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="ur5a/EilPU7fBBGdWtgxit50grTxfoz+X4uo5nnPSZhKYlMoyeMlakHm1YEErbI042rnBE7IFEfm6Qpvolnnlmevhz8pAYaDjjAJvWCKwQbTK41WghF+bJwFqJCaJejqc+J9iRbMcd5RIJJdZQaKJYfgqxxESStcBwgesFDehsCQ3cCkdb/Mb8kBNGo6J5uhESxAWNig/vsDDk17VdjX8FP2okBd4BW7dZvLBpGbPPNFIvc6+RjNRtHTqqcqnEOvTpRvvqav3FDOwae+UqqecQgdtV4gPl1VC/5Kzdr23UB95HIWL0iZlEzMpwRSUduNG/zCYrdZsqfi2PX+QoA229xIpLyUCYyBVR+erJKQGL/G0hN9tafS2eH4RK0H16mpOKL/iX1ZBL/hdFteiLU1pnzWI71ei0tvrXq6K/zoo+tDUIRIvyYyz1pxhbP4jffGNyBk4uHjnB4RlL+lyCzjbAD/+JEurdD2NUj/HWzuJNUc7VNSfRT89h5k4K5vU641YWbL9ogZ4mSML3Ad1uOCxaD+NP87VwUqlhlSVmjksbPnG1ux7oVSqWOrCr5HGKaApPE7OVGAtxRF4c5BQ+3m5uBnY2Sq2L/eFnhUKonmHaYx1/93OlqjFqlDEaxwIz8+/T+lG5rMe3o1Iy3N7LmWz8sZ6XwpqOzfL2PDYtx6onJAcRVOpyQMUfP/wn/GKzbpTbyDuZvRUOCrwscCIc81S6d5X9Z0H/MaqcSXAPwgwakWr9o2Dq9v7wyU/aiZocdkiO3cay7ZaEt9bwFk2W3XcCZZtTREMdxQnHyHqMss/JVXI2Zg96EBpbrILEJbniqffKekt0Bsln1Ok2deqL893+V3VXjtFyF2ozAolCBa5cIoL9jZRXQRnwZBOsT48xfSeWQl34HDW7rVYEWnx2qbfUPwG+0W++vriyZaGIm7B1BJgRmv1Z8OMe1MZtKKUCxz5PQJgqhYT3GE3opDC7Oqtg==" />
+
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="uZia0thTW5uII5ENY0aJOUUtRjG+hh3fceS09URT2OXyvR/hKJ3f5oAgs4h5yMJuAWAC/P9ZeibnZOtF95Fo1D2+RmD7zTkQP4Qci35V/I4NmtaWEVTiAc9clvEckcmtFrHxjfYgKMsinMOreEDcxIBiGPKLuIJPhCwDoLxE99tzgUZH5juL15mJKc8y6f+GaK11dJoq7c4h2ki6EHKC7AHgymOdfW0t9jBCntHg2xO1tEoWqJLG3Y+83Z1tEJBpNUuBmu/FOoaERZfvzxaZRQ==" />
+<body>
+<div class="banner">
+  <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="1000" height="127">
+    <param name="movie" value="images/top.swf" />
+    <param name="quality" value="high" />
+    <embed src="images/top.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="1000" height="127"></embed>
+  </object>
+</div>
+<div class="nav"><a href="Default.aspx">首页</a>   |    <a href="OrganNews.aspx?type=%E6%96%B0%E9%97%BB%E5%85%AC%E5%91%8A">新闻公告</a>   |    <a href="OrganNews.aspx?type=%E6%94%BF%E7%AD%96%E6%96%87%E4%BB%B6">政策文件</a>   |    <a href="OrganNews.aspx?type=%E6%88%90%E6%9E%9C%E5%B1%95%E7%A4%BA">成果展示</a>   |    <a href="Technical.aspx">技术交流</a>   |    <a href="OrganNews.aspx?type=%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98">常见问题</a>   |    <a href="Contact.aspx">联系我们</a></div>
+<div class="partone">
+<ul>
+ 
+<li class="fenbu">
+<div class="list_title_full">试验检测机构查询</div>
+<div  class="search_back"><a href="javascript:void(0)" class="easyui-linkbutton" iconcls="icon-back" plain="true" onclick="javascript:back();" title="返回上一页">返回</a></div>
+<div class="list_kuang_full">
+<div style="display:none;"><select name="_ctl0:ContentPlaceHolder1:DropDownList版本1" id="_ctl0_ContentPlaceHolder1_DropDownList版本1">
+	<option selected="selected" value="beea29e2-4fc6-4b62-b887-587eca85c8fe">JC2008</option>
+
+</select></div>
+<div class="search_form_full">
+<ul>
+<li class="sf_1">机构名称:</li>
+<li class="sf_2"><input name="_ctl0:ContentPlaceHolder1:txt机构名称" type="text" id="_ctl0_ContentPlaceHolder1_txt机构名称" usage="" tip="该处必须填写" />
+    </li>
+<li class="sf_1">所在省(市):</li>
+<li class="sf_2" style="text-align:left;"><select name="_ctl0:ContentPlaceHolder1:drop省" id="_ctl0_ContentPlaceHolder1_drop省" style="width:120px;">
+	<option value="">不限地区</option>
+	<option value="北京市">北京市</option>
+	<option value="天津市">天津市</option>
+	<option value="上海市">上海市</option>
+	<option value="重庆市">重庆市</option>
+	<option value="河北省">河北省</option>
+	<option value="山西省">山西省</option>
+	<option value="辽宁省">辽宁省</option>
+	<option value="吉林省">吉林省</option>
+	<option value="黑龙江省">黑龙江省</option>
+	<option value="江苏省">江苏省</option>
+	<option value="浙江省">浙江省</option>
+	<option value="安徽省">安徽省</option>
+	<option value="福建省">福建省</option>
+	<option value="江西省">江西省</option>
+	<option value="山东省">山东省</option>
+	<option value="河南省">河南省</option>
+	<option value="湖北省">湖北省</option>
+	<option value="湖南省">湖南省</option>
+	<option value="广东省">广东省</option>
+	<option value="甘肃省">甘肃省</option>
+	<option value="四川省">四川省</option>
+	<option value="贵州省">贵州省</option>
+	<option value="海南省">海南省</option>
+	<option value="云南省">云南省</option>
+	<option value="青海省">青海省</option>
+	<option value="陕西省">陕西省</option>
+	<option value="广西壮族自治区">广西壮族自治区</option>
+	<option value="西藏自治区">西藏自治区</option>
+	<option value="宁夏回族自治区">宁夏回族自治区</option>
+	<option value="新疆维吾尔自治区">新疆维吾尔自治区</option>
+	<option value="内蒙古自治区">内蒙古自治区</option>
+</select></li>
+<li class="sf_1">机构等级:</li>
+<li class="sf_2" style="text-align:left;"><select name="_ctl0:ContentPlaceHolder1:DropDownList专业1" id="_ctl0_ContentPlaceHolder1_DropDownList专业1">
+	<option selected="selected" value="">请选择专业</option>
+	<option value="9d974b4f-b628-446b-bf8b-90eb579bda16">公路工程</option>
+	<option value="a52469c3-a31e-43c3-a176-94e5d37aaee0">水运工程</option>
+
+</select>
+    <select name="_ctl0:ContentPlaceHolder1:drop资质等级" id="_ctl0_ContentPlaceHolder1_drop资质等级">
+	<option value="">请选择等级</option>
+
+</select>
+   
+
+</li>
+<li class="sf_1"> <input type="image" name="_ctl0:ContentPlaceHolder1:imgbt1" id="_ctl0_ContentPlaceHolder1_imgbt1" src="images/search.png" /></li>
+</ul>
+</div>
+<div class="clear"></div>
+<div class="search_form_title_full"><b>检测机构列表</b></div>
+
+<div class="search_form2_full">
+<table width="974" border="0" cellspacing="1" cellpadding="1" id="tb1">
+  <tr>
+    <td width="40" height="26" align="center" bgcolor="ADD8E6"><strong>序号</strong></td>
+    <td width="251" align="center" bgcolor="ADD8E6"><strong>检测机构名称</strong></td>
+  <!--  <td width="66" align="center" bgcolor="ADD8E6"><strong>基本信息</strong></td>
+    <td width="97" align="center" bgcolor="ADD8E6"><strong>注册检测人员</strong></td>-->
+    <td width="141" align="center" bgcolor="ADD8E6"><strong>机构等级</strong></td>
+    <td width="78" align="center" bgcolor="ADD8E6"><strong>所在省(市)</strong></td>
+    <td width="78" align="center" bgcolor="ADD8E6"><strong>详细信息</strong></td>
+  </tr>
+
+</table>
+</div>
+
+</div>
+</li>
+
+</ul>
+</div>
+
+<div class="bt_bg">
+<div class="bt">
+版权所有： 中国交通建设监理协会试验检测工作委员会&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;京ICP备05002278-7号<br />
+ 技术支持：成都科信交通科技开发有限公司<br>  
+<script>
+    var _hmt = _hmt || []; (function () {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?0adb27d3ea0c31da2764e4162f0e3c95";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+<span id="_ctl0_lbl统计">您是第<img src=/images/0.gif /><img src=/images/5.gif /><img src=/images/3.gif /><img src=/images/9.gif /><img src=/images/7.gif /><img src=/images/2.gif /><img src=/images/0.gif /><img src=/images/2.gif />位访客</span>
+ </div>
+
+</div>
+    </form>
+</body>
+</html>
